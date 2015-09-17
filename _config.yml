@@ -1,0 +1,9 @@
+baseurl: /incubator-repo
+exclude: ['README.md']
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      software: "Project Newcastle"
+      software-abbrev: "PNC"
