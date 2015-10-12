@@ -1,0 +1,413 @@
+---
+title: Help
+---
+<html lang="en"><head>
+<!-- bootstrapdocs addition --> <link href="/shared/bootstrapdocs.css" rel="stylesheet" type="text/css">
+    <!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.">
+<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+<title>
+  
+    Getting started · Bootstrap
+  
+ 3.1.1 Documentation - BootstrapDocs</title>
+
+<!-- Bootstrap core CSS -->
+<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Documentation extras -->
+<link href="{{ site.baseurl }}/assets/css/docs.min.css" rel="stylesheet">
+<!--[if lt IE 9]><script src="{{ site.baseurl }}/assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<link rel="stylesheet" href="{{ site.baseurl }}/css/creative.css" type="text/css">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/custom.css" type="text/css">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/ico/apple-touch-icon-144-precomposed.png">
+                               <link rel="shortcut icon" href="{{ site.baseurl }}/assets/ico/favicon.ico">
+
+<!-- bootstrapdocs addition --> <script src="https://platform.twitter.com/widgets.js" async="" id="twitter-wjs"></script><script src="http://www.google-analytics.com/ga.js" async="" type="text/javascript"></script><script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-34288920-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+  <style type="text/css" id="holderjs-style"></style><script src="https://platform.twitter.com/js/button.9594287b32ac4ed2228acac1d8fcd7c2.js" async="" charset="utf-8" type="text/javascript"></script></head>
+  <body id="page-top">
+    {% include nav.html %}
+    <a class="sr-only" href="#content">Skip to main content</a>
+
+  <section class="bg-dark" id="content">
+    <div class="text-center">
+      <h1>Getting Started</h1>
+      <p>An overview of {{ page.proj-name }} and how to use it.</p>
+    </div>
+  </section>
+
+    <div class="container bs-docs-container">
+      
+        <div class="row">
+          <div class="col-md-9" role="main">
+            <!-- Getting started
+================================================== -->
+
+
+<div class="bs-docs-section">
+  <h1 id="overview" class="page-header">Overview</h1>
+
+  <p class="lead">{{ site.proj-name }} has a few  ways to  get started, each one appealing to a use case. Read through to see what suits your particular needs.</p>
+
+
+  <div class="row bs-downloads">
+    <div class="col-sm-4">
+      <h3 id="download-bootstrap">Bootstrap</h3>
+      <p>Compiled and minified CSS, JavaScript, and fonts. No docs or original source files are included.</p>
+      <a href="https://github.com/twbs/bootstrap/releases/download/v3.1.1/bootstrap-3.1.1-dist.zip" class="btn btn-lg btn-outline" role="button" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download compiled']);">Download Bootstrap</a>
+    </div>
+    <div class="col-sm-4">
+      <h3 id="download-source">Source code</h3>
+      <p>Source Less, JavaScript, and font files, along with our docs. <strong>Requires a Less compiler and <a href="https://github.com/twbs/bootstrap#compiling-css-and-javascript">some setup.</a></strong></p>
+      <a href="https://github.com/twbs/bootstrap/archive/v3.1.1.zip" class="btn btn-lg btn-outline" role="button" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download source']);">Download source</a>
+    </div>
+    <div class="col-sm-4">
+      <h3 id="download-sass">Sass</h3>
+      <p><a href="https://github.com/twbs/bootstrap-sass">Bootstrap ported from Less to Sass</a> for easy inclusion in Rails, Compass, or Sass-only projects.</p>
+      <a href="https://github.com/twbs/bootstrap-sass/archive/v3.1.1.tar.gz" class="btn btn-lg btn-outline" role="button" onclick="_gaq.push(['_trackEvent', 'Getting started', 'Download', 'Download Sass']);">Download Sass</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- FAQ
+================================================== -->
+<div class="bs-docs-section">
+  <h1 id="faq" class="page-header">FAQ</h1>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <div id="accordion" class="panel-group">
+
+          <div id="faq_what_is_1" class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7007A02B-AD94-4037-90A4-90D892EDE6FE">What is {{ page.proj-name }} ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-7007A02B-AD94-4037-90A4-90D892EDE6FE" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div id="faq_what_is_2" class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-E6A08A11-4A15-4FFB-9E9B-EF269B5FB29E">What is {{ page.proj-abbrev }} ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-E6A08A11-4A15-4FFB-9E9B-EF269B5FB29E" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div id="faq_get_started" class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-BA61B717-4B56-4426-ABBC-67F6C92A9E95">How do I get started ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-BA61B717-4B56-4426-ABBC-67F6C92A9E95" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                      <p>Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div id="faq_already_built" class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-0FFA3DB3-3982-429F-A8EC-D449EA98224C">How can I find out if something has already been built in {{ page.software }} ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-0FFA3DB3-3982-429F-A8EC-D449EA98224C" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8A4A27BA-E42C-4F3B-A63F-91B22DC56D22">Can {{ page.software }} suggest what versions of artifacts to use ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-8A4A27BA-E42C-4F3B-A63F-91B22DC56D22" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-77A0DB70-5F74-4176-AB59-1533F9884CE7">Will {{ page.software }} build maven projects ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-77A0DB70-5F74-4176-AB59-1533F9884CE7" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-F7589F47-7CF8-4CB7-BCBD-3E129676ACB3">Will I have to replace my build system ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-F7589F47-7CF8-4CB7-BCBD-3E129676ACB3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-43EE5EAD-7224-4503-A0A2-C54334BD40EA">Can I use {{ page.software }} as my build system ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-43EE5EAD-7224-4503-A0A2-C54334BD40EA" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-76F30410-AA4F-4458-AE6E-424DD7A76850">Does {{ page.software }} have an API ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-76F30410-AA4F-4458-AE6E-424DD7A76850" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-D8238F4F-5FE5-4309-A910-69B33FD9EA4B">Can {{ page.software }} be used from the command line ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-D8238F4F-5FE5-4309-A910-69B33FD9EA4B" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-E3DFB5A8-901C-42C1-BE5A-A2A9E81808E1">Does {{ page.software }} do Continuous Integration (CI) ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-E3DFB5A8-901C-42C1-BE5A-A2A9E81808E1" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7273FAB3-DD7C-4E23-B6B9-CC04D47B33FE">Is there a plugin for Jenkins ?</a>
+              </h4>
+            </div>
+            <div id="collapse-7273FAB3-DD7C-4E23-B6B9-CC04D47B33FE" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-8639ABB2-2C52-4EB7-9665-7FF87FC152A3">Is there a plugin for Travis ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-8639ABB2-2C52-4EB7-9665-7FF87FC152A3" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7A23F376-D9D0-4E96-B4A4-CB5AB622281F">Is there a plugin for TeamCity ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-7A23F376-D9D0-4E96-B4A4-CB5AB622281F" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-9C766654-1B7E-4192-AC33-14B196626AA8">Will {{ page.software }} tell me if projects (or versions) are blacklisted ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-9C766654-1B7E-4192-AC33-14B196626AA8" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="panel panel-default">
+              <div class="panel-heading">
+                  <h4 class="panel-title">
+                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2720DD03-1667-49E7-8994-0354372C7C9F">How can I view my build results ?</a>
+                  </h4>
+              </div>
+              <div id="collapse-2720DD03-1667-49E7-8994-0354372C7C9F" class="panel-collapse collapse">
+                  <div class="panel-body">
+                      <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</div
+
+<!-- Web UI
+================================================== -->
+<div class="bs-docs-section">
+  <h1 id="webui" class="page-header">Web UI</h1>
+
+</div>
+
+<!-- Command Line Tooling
+================================================== -->
+<div class="bs-docs-section">
+  <h1 id="cmd" class="page-header">Command Line Tools</h1>
+
+</div>
+
+<!-- REST API
+================================================== -->
+<div class="bs-docs-section">
+  <h1 id="rest" class="page-header">REST API</h1>
+
+</div>
+
+<!-- Plugins
+================================================== -->
+<div class="bs-docs-section">
+  <h1 id="plugins" class="page-header">Plugins</h1>
+
+</div>
+
+<!-- Downloads
+================================================== -->
+<div class="bs-docs-section">
+  <h1 id="downloads" class="page-header">Downloads</h1>
+
+</div>
+
+</div>
+<!- Sidebar navigation -->
+          <div class="col-md-3">
+            <div class="bs-docs-sidebar hidden-print affix-top" role="complementary">
+              <ul class="nav bs-docs-sidenav">
+                  <li class="active">
+                    <a href="#overview">Overview</a>
+                  </li>
+                  <li class="">
+                    <a href="#faq">FAQ</a>
+                    <ul class="nav">
+                        <li class=""><a href="#faq_what_is_1">What is {{ page.proj-name }} ?</a></li>
+                        <li class=""><a href="#faq_what_is_2">What is {{ page.proj-abbrev }} ?</a></li>
+                        <li class=""><a href="#faq_get_started">How do I get started ?</li>
+                        <li class=""><a href="#faq_already_built">How can I find out if something has already been built in {{ page.software }} ?</a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                        <li class=""><a href="#jenkins"></a></li>
+                    </ul>
+                  </li>
+                  <li class="">
+                    <a href="#webui">Web UI</a>
+                  </li>
+                  <li class="">
+                    <a href="#cmd">Command Line Tools</a>
+                  </li>
+                  <li class="">
+                    <a href="#rest">REST API</a>
+                      <ul class="nav">
+                        <li class=""><a href="#swagger">Swagger</a></li>
+                      </ul>
+                  </li>
+                  <li class="">
+                    <a href="#plugins">Plugins</a>
+                      <ul class="nav">
+                        <li class=""><a href="#jenkins">Jenkins</a></li>
+                      </ul>
+                      <ul class="nav">
+                        <li class=""><a href="#teamcity">TeamCity</a></li>
+                      </ul>
+                  </li>
+                  <li class="">
+                    <a href="#downloads">Downloads</a>
+                  </li>
+              </ul>
+              <a class="back-to-top" href="#top">
+                Back to top
+              </a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/dist/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/docs.min.js"></script>
+
+
+
+<script>
+  window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
+    js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+</script>
+
+  
+
+</body></html>

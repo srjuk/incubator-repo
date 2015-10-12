@@ -5,5 +5,7 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      software: "Project Newcastle"
-      software-abbrev: "PNC"
+      proj-name: "Project Newcastle"
+      proj-abbrev: "PNC"
+collections:
+  - services
